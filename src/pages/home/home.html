@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon class="icon" name="menu"></ion-icon>
+    </button>
+    <ion-title>Ultimas Noticias</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="fondo" padding>
+<ion-card (click)="news1()" class="myCard">
+    <img src="../../assets/imgs/americavspuebla.jpg"/>
+    <div class="myOverlay">
+       <div class="card-title">Triunfo sobre Puebla</div>
+       <div class="card-subtitle">America se lleva un triunfo importantisimo contra el Puebla, Nicolas Castillo regresa de su lesion con gol</div>
+    </div>
+  </ion-card>
+  
+  <ion-card (click)="news2()" class="myCard">
+      <img src="../../assets/imgs/gio.jpg"/>
+      <div class="myOverlay">
+         <div class="card-title">Giovani regresa</div>
+         <div class="card-subtitle">el 10 de las aguilas cada vez esta mas cerca de volver y podria reaparecer ante Santos Laguna</div>
+      </div>
+    </ion-card>
+
+    <ion-card class="news3()" class="myCard">
+        <img src="../../assets/imgs/guidoseva.jpg"/>
+        <div class="myOverlay">
+           <div class="card-title">¿Adios a Guido Rodriguez?</div>
+           <div class="card-subtitle">Cada vez esta mas cerca el final del torneo y a su vez el adios del 5 americanista que ya es sondeado en Europa</div>
+        </div>
+      </ion-card>
+</ion-content>

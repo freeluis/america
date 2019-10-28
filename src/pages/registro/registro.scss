@@ -1,0 +1,95 @@
+page-registro {
+
+    .register-item2{
+        margin: 10px;
+        border-radius: 20px;
+        background-color: #ffffff29;
+        border: none !important;
+        padding-right: 0px;
+    }
+    .titulo{
+        color: #385da4;
+        text-align: center;
+        font-style: oblique;
+        font-size: 40px;
+    }
+    .fondo{
+      //  background-image: url(https://i.ibb.co/brd4G5X/fondo-Registro.jpg);
+      background-image: url(../../assets/imgs/fondoRegistro.jpg);
+        background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    }
+    .text-login{
+        font-size: 20px;
+        text-align: left;
+        font-style: italic;
+        color: #f4e39d;
+        font-weight: 900;
+        text-shadow: 1px 1px 1px #123;
+    }
+    .contenedor{
+        display: grid;
+        height: 40%;
+        margin-top: 60px;
+        margin-left: -10px;
+        margin-right: 4px;
+    }
+    .register-input{
+        margin: 8px;
+        border-radius: 10px;
+        background-color: white;
+        font-size: 20px;
+        padding-right: 10px;
+        padding-right: 0px;
+        text-indent: 10px;
+    }
+    .register-item{
+        margin: 10px;
+        border-radius: 20px;
+        background-color: #ffffff29;
+        border: none !important;
+    }
+  
+    .icon{
+        color: white;
+        padding-left: -10px;
+        margin-right: -25px;
+        margin-left: -10px;
+    }
+    .ion-button{
+        background-color: red;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 0px rgb(53, 27, 27);
+        margin-top: 30px;
+    }
+
+
+[padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+    margin-top: 1.7rem;
+}
+.button.activated{
+    background-color: #ab0202;
+}
+.item-md ion-icon[item-left], .item-md ion-icon[item-right], .item-md ion-icon[item-start], .item-md ion-icon[item-end] {
+    margin-left: -8px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    margin-right: -25px;
+    
+}
+.item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start], .item-ios ion-icon[item-end] {
+    margin-left: -6px;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    margin-right: -5px;
+   
+}
+.eye{
+    font-size: 27px;
+    margin-left: -10px;
+
+}
+
+   
+}

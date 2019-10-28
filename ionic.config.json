@@ -1,0 +1,7 @@
+{
+  "name": "ClubAmerica",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

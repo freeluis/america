@@ -1,0 +1,62 @@
+page-plantilla {
+   
+        .fondo{
+            background-image: url(../../assets/imgs/fondoHome.jpg);
+            background-repeat: repeat;
+            background-size: 60px;
+        }
+        .toolbar-background {
+            border-color: #ffffff;
+            background: #495f88;
+        }
+        .toolbar-title-ios {
+            position: absolute;
+            font-weight: 500;
+            color: #fcf779;
+            text-align: left;
+            
+            font-size: 23px;
+        }
+        .toolbar-title-md {
+            position: absolute;
+            font-weight: 500;
+            color: #fcf779;
+            text-align: left;
+           
+            font-size: 21px;
+        }
+        .button-inner{
+            color: #fcf779;
+        }
+        .bar-button-menutoggle ion-icon {
+            padding: 0 6px;
+            font-size: 3.4rem;
+    }
+    .micard{
+        display: table;
+        height: 0;
+        clear: both;
+        background: #ffffff7a;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    }
+    h2{
+            align-self: center;
+            background: #f8f8f880;
+            width: 120px;
+            text-align: center;
+            border-radius: 31px;
+            margin-bottom: 15px;
+    }
+    ion-row{
+        margin-top: -20px;
+    }
+    .div-fondo{
+        text-align: center;
+    background: #00ffff00;
+    }
+    .h2{
+        margin-top: -5px;
+    }
+    }

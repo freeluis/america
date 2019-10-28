@@ -1,0 +1,35 @@
+page-noticias {
+    .fondo{
+        background-image: url(../../assets/imgs/fondoHome.jpg);
+        background-repeat: repeat;
+        background-size: 60px;
+    }
+    .toolbar-background {
+        border-color: #ffffff;
+        background: #495f88;
+    }
+    .toolbar-title-ios {
+        position: absolute;
+        font-weight: 500;
+        color: #fcf779;
+        text-align: left;
+        
+        font-size: 23px;
+    }
+    .toolbar-title-md {
+        position: absolute;
+        font-weight: 500;
+        color: #fcf779;
+        text-align: left;
+       
+        font-size: 25px;
+    }
+    .button-inner{
+        color: #fcf779;
+    }
+    .bar-button-menutoggle ion-icon {
+        padding: 0 6px;
+        font-size: 3.4rem;
+}
+
+}

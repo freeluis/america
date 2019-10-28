@@ -1,0 +1,43 @@
+<ion-content class="fondo" padding>
+
+  <h2 class="text-login">LOGIN</h2>
+
+  <div class="div-login">
+
+    <div class="contenedor">
+      <div class="mi-item">
+        <input value="" [(ngModel)]="nickname" />
+        <p class="text-login" floating>Usuario</p>
+      </div>
+
+      <div class="mi-item">
+        <input type="password" [(ngModel)]="password" />
+        <p class="text-login">Contraseña</p>
+      </div>
+      <div>
+        <button ion-button (click)="login()">
+          <ion-icon name="log-in"></ion-icon> Entrar
+        </button>
+        <button ion-button color="danger" (click)="registro()">
+          <ion-icon name="person-add"></ion-icon> Registrarse
+        </button>
+      </div>
+      <button ion-button block (click)="loginFacebook()">Login con facebook</button>
+      <ion-item *ngIf="showUser">
+        <ion-avatar item-left>
+          <img [src]="user.picture.data.url" alt="">
+        </ion-avatar>
+        <h2>{{user.name}}</h2>
+        <p>{{user.email}}</p>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mantener Sesion Iniciada</ion-label>
+        <ion-checkbox [(ngModel)]="SesionOn"></ion-checkbox>
+      </ion-item>
+    
+    </div>
+    
+  </div>
+
+
+</ion-content>

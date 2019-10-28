@@ -1,0 +1,67 @@
+page-home {
+
+    .fondo{
+        background-image: url(../../assets/imgs/fondoHome.jpg);
+        background-repeat: repeat;
+        background-size: 60px;
+    }
+    .headerHome{
+        background-color: blue;
+    }
+    .toolbar-background {
+        border-color: #ffffff;
+        background: #495f88;
+    }
+    .toolbar-title {
+        padding: 0px 0px;
+        font-size: 3rem;
+        font-weight: 500;
+        color: #fcf779;
+    }
+    .button-inner{
+        color: #fcf779;
+    }
+    .bar-button-menutoggle ion-icon {
+        padding: 0 6px;
+        font-size: 3.4rem;
+}
+img {
+    max-width: 100%;
+    border: 0;
+    border-radius: 15px;
+}
+img{
+    width:100%;
+    height:100%;
+  }
+  
+  .myCard{
+    position:relative;
+    background: #fff0;
+  
+  }
+  
+  .myOverlay{
+      width: 100%;
+      height: 80px;
+      position: absolute;
+      z-index: 99;
+      bottom: 0px;
+      background: #00000096;
+      color: #fff;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+      .card-title{
+        opacity: 3.5;
+        font-weight: bold;  
+          font-size: 19px;
+      }
+      .card-subtitle{
+        opacity: 3.5; 
+        font-size: 15px;
+      }
+  
+  }
+
+}
